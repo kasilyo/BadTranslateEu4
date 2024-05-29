@@ -5,7 +5,7 @@ import yaml
 z = os.listdir("localization")
 # print(z)
 for fp in z:
-    l = open("localization\\" + fp, "r", encoding="UTF-8")
+    l = open("localisation\\" + fp, "r", encoding="UTF-8")
     lines = l.readlines()
     sp = None
     nl = []
