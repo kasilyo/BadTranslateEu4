@@ -1,9 +1,7 @@
 import os
-import yaml
 
 
 z = os.listdir("localization")
-# print(z)
 for fp in z:
     l = open("localisation\\" + fp, "r", encoding="UTF-8")
     lines = l.readlines()
@@ -21,6 +19,3 @@ for fp in z:
     for x in nl:
         l.write(x)
     l.close()
-
-
-print(nl)
